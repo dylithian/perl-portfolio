@@ -41,10 +41,7 @@ do {
 print("\n\nExercise:\n");
 
 # Exercise, but run completely internally.
-@numbers = ();  # Generate the number list.
-for($i = 0;$i <= 500;$i++) {
-    push(@numbers,$i);
-}
+@numbers = (0..500);  # Generate the number list.
 
 # Loop
 foreach $number (@numbers) {
