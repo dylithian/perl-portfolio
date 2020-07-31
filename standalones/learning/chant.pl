@@ -5,5 +5,5 @@
 # Not sure why this is in comments, but I'm putting it here since it was in the text. Is it just a helpful header to tell people how to run the program?
 # Apparently it's a Unix header to enable warnings.
 #!/usr/bin/perl -w
-print "Hello, world.\n";
-print "I PRAY TO THE PROGRAMMING GODS!\n";      # Not in the tutorial, but it's here for good measure.
+print("Hello, world.\n");                           # The text calls parentheses "brackets". Blasphemy, I tell you!
+print("I PRAY TO THE PROGRAMMING GODS!\n");         # Not in the tutorial, but it's here for good measure.
