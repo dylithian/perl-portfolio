@@ -29,7 +29,7 @@ print("$line");
 # Is it len()? Let's find out!
 # Also side note, apparently I was right about =...= blocks. I got a syntax error for trying to put one here.
 
-for (my $iterator = 0; $iterator < scalar(@array); $iterator++) {
+for ($iterator = 0; $iterator < scalar(@array); $iterator++) {
     # Wasn't len(). Did length() work?
     # Nope. Not length() either.
     # scalar() huh? Fascinating.

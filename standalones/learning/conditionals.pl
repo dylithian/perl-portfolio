@@ -63,7 +63,7 @@ if(5 <=> $booleanToy) {
 print("\n");
 
 # Brave of them to ask us to do this listing exercise without for loops. Probably intentional given that the next lesson is about loops.
-for (my $member = 0; $member < scalar(@family); $member++) {
+for ($member = 0; $member < scalar(@family); $member++) {
     $name = @family[$member];
     if( (!exists($shoe_color{$name})) || (!exists($shoe_size{$name}))) {
         print("$name doesn't wear shoes of any kind.\n");
