@@ -49,3 +49,7 @@ my $censor = '*';
 my $parseFive = "Fuck this. I'm being fucked in the ass by this shitty bullshit. I'm out.";
 $parseFive =~ s/$swearFilterOne/$censor x length($&)/ge;
 say "$parseFive";
+
+my $parseSix = "You know, you can really be an asshat, sometimes.";
+$parseSix =~ s/$swearFilterOne/$censor x length($&)/ge;
+say "$parseSix";
